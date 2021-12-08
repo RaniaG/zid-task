@@ -1,0 +1,15 @@
+.section {
+  @include flex-box(column);
+    &__title {
+      font-size: 4rem;
+      font-weight: 700;
+      color: $primary;
+      text-align: center;
+    }
+    &__body {
+      font-weight: 400;
+      font-size: 2rem;
+      width: 50%;
+      text-align: center;
+    }
+  }

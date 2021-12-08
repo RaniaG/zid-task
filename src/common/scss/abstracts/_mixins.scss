@@ -1,0 +1,12 @@
+@mixin flex-box($direction: row, $justify-content: center, $align-items: center) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin animation($animation-name, $duration: .2s, $count: infinite) {
+    animation-name: $animation-name;
+    animation-duration: $duration;
+    animation-iteration-count: $count;
+}
